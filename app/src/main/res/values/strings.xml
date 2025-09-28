@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">to_do_list</string>
+    <string name="person">Иконка акаунта</string>
+    <string name="archivwb">Архив</string>
+    <string name="plan">План</string>
+    <string name="diary">Личный дневник</string>
+    <string name="trashcan">Мусорка</string>
 </resources>
