@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.To_do_list">
         <activity
+            android:name=".TrashcanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
