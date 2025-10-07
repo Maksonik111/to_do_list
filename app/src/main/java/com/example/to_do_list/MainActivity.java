@@ -1,6 +1,8 @@
 package com.example.to_do_list;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,23 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void goDiary(View v){
+        Intent go_next = new Intent(this, DiaryActivity.class);
+        startActivity(go_next);
+    }
+    public void goArchive(View v){
+        Intent go_next = new Intent(this, ArchiveActivity.class);
+        startActivity(go_next);
+    }
+    public void goPlan(View v){
+        Intent go_next = new Intent(this, PlanActivity.class);
+        startActivity(go_next);
+    }
+    public void goTrashcan(View v){
+        Intent go_next = new Intent(this, TrashcanActivity.class);
+        startActivity(go_next);
+    }
+
+
 }
